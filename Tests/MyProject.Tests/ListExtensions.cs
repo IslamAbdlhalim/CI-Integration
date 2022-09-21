@@ -1,16 +1,16 @@
-﻿namespace MyProject.Tests;
+﻿
+using Xunit;
+
+namespace MyProject.Tests;
 
 public static class ListExtensions
 {
-    public static string AddItems<T>(this List<string> list)
+    [Fact]
+    public static void ConcatenateStrings_ListOfStrings_ReturnsConcatenatedString()
     {
-        string totalString = "";
-        foreach (var item in list)
-        {
-            totalString += item;
-        }
-
-        return totalString;
+        List<string> mockList = new List<string>() { "Cat", "Dog", "Elephant"};
+        
+        Assert.Equal("Cat,Dog,Elephant", mockList.ConcatenateStrings());
     }
     
 }

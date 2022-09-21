@@ -1,15 +1,30 @@
 ﻿namespace MyProject;
 
-public static class ListExtension
-{
-    public static string ConcatenateList(this List<string> list)
+    public static class ListExtensions
     {
-        string concatenate = "";
-        foreach (var item in list)
+        public static string ConcatenateStrings(this List<string> list)
         {
-            concatenate += item;
+            string? totalString = null;
+            string lastString = list[^1];
+            foreach (var item in list)
+            {
+                if (item != lastString)
+                {
+                    totalString += item + ",";
+                }
+                else
+                {
+                    totalString += lastString;
+                }
+
+            }
+
+            return totalString;
         }
 
-        return concatenate;
+        public static int ARandomMethod()
+        {
+            return 1;
+        }
     }
-}
+

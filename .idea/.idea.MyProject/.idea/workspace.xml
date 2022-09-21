@@ -12,10 +12,12 @@
       <change afterPath="$PROJECT_DIR$/.idea/.idea.Mock Repo/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.idea.Mock Repo/.idea/indexLayout.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.idea.Mock Repo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyProject/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Mock Repo.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/MyProject.Tests/MyClassTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/MyProject.Tests/ListExtensions.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Tests/MyProject.Tests/MyProject.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/MyClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/MyProject.Tests/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyProject/ListExtensions.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/MyProject/MyProject.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Tests/MyProject.Tests/MyClassTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/MyProject.Tests/ListExtensions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663620241279</updated>
       <workItem from="1663620245445" duration="3890000" />
-      <workItem from="1663658501588" duration="3726000" />
+      <workItem from="1663658501588" duration="5275000" />
     </task>
     <servers />
   </component>
