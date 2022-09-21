@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UserContentModel">
+    <attachedFolders />
+    <explicitIncludes>
+      <Path>.git</Path>
+      <Path>.gitignore</Path>
+      <Path>.idea</Path>
+      <Path>Tests/MyProject.Tests/MyClassTests.cs</Path>
+      <Path>Tests/MyProject.Tests/MyProject.Tests.csproj</Path>
+      <Path>Tests/MyProject.Tests/bin</Path>
+      <Path>src</Path>
+    </explicitIncludes>
+    <explicitExcludes />
+  </component>
+</project>
