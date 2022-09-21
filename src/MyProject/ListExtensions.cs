@@ -10,7 +10,7 @@
             {
                 if (item != lastString)
                 {
-                    totalString += item + ",";
+                    
                 }
                 else
                 {
