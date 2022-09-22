@@ -7,7 +7,7 @@
             string? totalString = null;
             foreach (var item in list)
             {
-                totalString += item + ",";
+              
             }
 
             return totalString;
