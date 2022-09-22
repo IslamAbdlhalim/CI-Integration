@@ -8,23 +8,11 @@
             string lastString = list[^1];
             foreach (var item in list)
             {
-                if (item != lastString)
-                {
-                    
-                }
-                else
-                {
-                    totalString += lastString;
-                }
-
+                totalString += lastString;
             }
 
             return totalString;
         }
-
-        public static int ARandomMethod()
-        {
-            return 1;
-        }
+        
     }
 
